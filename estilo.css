@@ -1,0 +1,151 @@
+body{background-image: url(Back.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;}
+
+h1 {color: #5F5555;
+	font-family: Segoe UI Emoji;
+	font-size: 90px;
+	margin: center;
+	text-align: center;
+}
+h2 {color: #006990;
+	font-family: Segoe UI Emoji;
+	font-size: 50px;
+	text-align:left;}
+header{
+	background: #006990;
+	border: #fff;}
+ul {font-family: Quantify;
+	font-size:60px;
+	color: #006990;}
+.menu 
+	{background: #fff;
+		width: 100%
+		list-style: none;
+		margin:0;
+		color: #006990;}
+.menu li{ display: inline-block; }
+.menu li a{ padding: 10px 110px;
+	display:inline-block ;}
+.menu li a:hover{ background: #9a8b7d;
+color: #fff;}
+/*.logog{ width: 20%;
+	margin-right:15px;
+	display: block;}*/
+#Layer1 {
+	position: absolute;
+	width: 500px;
+	height: 50px;
+	z-index: 1;
+	left: 150px;
+	top: 20px;
+}
+#Layer3 {
+	position: absolute;
+	width: 500px;
+	height: 100px;
+	z-index: 1;
+	left:110px;
+	top: 40px;
+}
+#Layer2 {
+	position: left;
+	width: 500px;
+	height: 97px;
+	z-index: 2;
+	left: 100px;
+	top: 0px;
+	margin: 1rem;}
+
+#IMG01 {
+	position: absolute;
+	width: 800px;
+	height: 0px;
+	z-index: 2;
+	left: 400px;
+	
+	top: 300px;
+	margin: 1rem;
+display:block;}
+#IMG02 {
+	position: absolute;
+	width: 800px;
+	height: 0px;
+	z-index: 2;
+	left: 800px;
+	top: 300px;
+	margin: 1rem;
+	display:block;
+}
+#IMG03 {
+	position: absolute;
+	width: 400px;
+	height: 0px;
+	z-index: 2;
+	left: 400px;
+	top: 500px;
+	margin: 1rem;
+display:block;}
+#IMG04 {
+	position: absolute;
+	width: 300px;
+	height: 0px;
+	z-index: 2;
+	left: 800px;
+	top: 550px;
+	margin: 1rem;
+	display:block;
+}
+h3 {color: #5F5555;
+	font-family: Quantify;
+	text-align:center;
+font-size: 50PX;}
+h4 {color: #676767;
+	font-family: Lansdowne DEMO;
+	text-align:center;}
+
+.volver{color: #676767;
+	font-family: Lansdowne DEMO;
+	text-align:center;}
+
+footer{color: #006990;
+		font-family: Lansdowne DEMO;
+		text-align:right;}	
+
+.boton {
+	border: 1px solid #006990; /*anchura, estilo y color borde*/
+	padding: 10px 100px; /*espacio alrededor texto*/
+	background-color: #006990; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	font-size: 20px;
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: Segoe UI Emoji; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+	}
+	#IMG03a {
+		position: absolute;
+		width: 400px;
+		height: 0px;
+		z-index: 2;
+		left: 400px;
+		top: 600px;
+		margin: 1rem;
+		opacity: 200%;
+	display:block;}
+	#IMG04a {
+		position: absolute;
+		width: 800px;
+		height: 0px;
+		z-index: 2;
+		left: 800px;
+		top: 650px;
+		margin: 1rem;
+		display:block;
+	}
+	.borde1{
+		background-color: #fff;
+		height: 100px;
+	}
